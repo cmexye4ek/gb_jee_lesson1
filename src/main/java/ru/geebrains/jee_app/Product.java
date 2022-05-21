@@ -10,4 +10,25 @@ public class Product {
         this.title = title;
         this.cost = cost;
     }
+
+    public int getId() {
+        return id;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public int getCost() {
+        return cost;
+    }
+
+    @Override
+    public String toString() {
+        return "Product{" +
+                "ID = '" + id + '\'' +
+                "Title = '" + title + '\'' +
+                "Cost = '" + cost + '\'' +
+                '}';
+    }
 }

@@ -73,8 +73,8 @@
           <url>http://localhost:8080/manager/text</url>
           <server>TomcatServer</server>
           <username>admin</username>
-          <password>123</password>
-          <path>/client2</path>
+          <password>admin</password>
+          <path>/jee_app</path>
           <update>true</update>
         </configuration>
       </plugin>
